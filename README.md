@@ -39,6 +39,12 @@ AI-enabled water well predictor (Clean & Green Technology) model
 - Created a user-friendly interface that empowers users to make informed decisions regarding well construction.
 - Established a feedback loop for user engagement and continuous improvement.
 
+## Website 
+![sih](https://github.com/pawan-cpu/SIH-AI-enabled-Water-Well-Prediction-Model/assets/83719360/c473203a-fd09-46d0-bafd-1a1fb766f98e)
+
+ ![sih1](https://github.com/pawan-cpu/SIH-AI-enabled-Water-Well-Prediction-Model/assets/83719360/3a3d8df9-859f-4997-8809-f6f1e88671d4)
+
+
 ## What we learned
 - One of the key learnings from this project was the effective implementation of Random Forest machine learning models for predicting groundwater-related parameters.
 - We gained insights into the power of data-driven decision-making in addressing critical water resource challenges.
