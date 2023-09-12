@@ -1,0 +1,133 @@
+
+@mixin mobile {
+  @media (max-width: 480px) {
+    @content;
+  }
+}
+.home {
+    height: 100vh;
+    background-color:  black;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: 100px;
+    border-bottom: 1px solid ("border");
+    position: sticky;
+    top: 0;
+
+
+  
+    .left {
+      display: flex;
+      align-items: center;
+      background-image: url("file:///C:/Users/aryan/Downloads/WhatsApp%20Image%202023-09-12%20at%2010.35.49%20PM.jpeg");
+      border-radius: 5px;
+      gap: 30px;
+      font-size: 50px;
+      height: 150px;
+    }
+  }
+  
+  .center {
+    
+    position: absolute;
+    top: 35%; /* Vertically center the text */
+    left: 50%; /* Horizontally center the text */
+    transform: translate(-50%, -50%); /* Center the text precisely */
+    font-size: 50px;
+    color: white;
+
+    @include mobile{
+        font-size: 40px;
+    }
+  }
+  
+  button {
+    border: none;
+    background-color: #5271ff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: inline-block;
+    text-align: center;
+    
+
+
+    @include mobile{
+        margin-bottom: 150px;
+        margin-left: 50px;
+        font-size: 20px;
+
+    }
+  }
+  
+  /* Add styles for the card container */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; /* Adjust padding as needed */
+    height: auto; /* Allow the container to adjust its height based on content */
+    align-items: flex-end;
+    position: fixed; /* Keep the cards at the bottom of the screen */
+    bottom: 0; /* Align the cards to the bottom */
+    left: 0; /* Optionally, align the cards to the left */
+    right: 0; /* Optionally, align the cards to the right */
+    border-radius: 5px;
+    border: none;
+
+
+  }
+  
+  /* Add styles for the individual cards */
+  .card {
+    flex: 1; /* Equal width for all cards */
+    padding: 20px; /* Adjust padding inside the card as needed */
+    background-color: white; /* Card background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Card box shadow */
+    text-align: center;
+    margin: 10px; /* Adjust the margin between cards as needed */
+    height: 180px;
+    border-radius: 5px;
+    border: 1px solid black;
+    transition: transform 0.3s ease;
+    text-align: left;
+    overflow-y: auto;
+    margin-bottom: 1px;
+
+    span{
+        font-family: 'IBM Plex Serif', serif;
+    }
+    
+    
+  
+
+    @include mobile{
+        font-size: small;
+        margin: 2px;
+        height: 200px;
+        overflow: auto;
+        
+    }
+    
+  }
+
+  .card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgb(211,211,211);
+}
+
+  
+}
