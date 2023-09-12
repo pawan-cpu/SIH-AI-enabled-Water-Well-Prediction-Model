@@ -1,5 +1,5 @@
 # SIH-AI-enabled-Water-Well-Prediction-Model-Project
-AI-enabled water well predictor (Clean & Green Technology) predetermined model
+AI-enabled water well predictor (Clean & Green Technology) model
 
 **Table of Contents**
 1. Inspiration
