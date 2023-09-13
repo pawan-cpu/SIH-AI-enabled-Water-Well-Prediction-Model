@@ -1,4 +1,5 @@
 # AI-Enabled Water Well Prediction Model   (Clean & Green Technology SIH1292 ), Ministry of Jal Shakti
+# By Team: PixelBytes
 
 ## Inspiration
 - The inspiration behind the AI-Enabled Water Well Prediction System is to address the critical issue of water scarcity in rural villages, towns, and cities.
