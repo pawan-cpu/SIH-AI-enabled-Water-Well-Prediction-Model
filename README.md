@@ -1,4 +1,5 @@
 # AI-Enabled Water Well Prediction Model   (Clean & Green Technology SIH1292 ), Ministry of Jal Shakti
+#Among Top10 projects and letter of Appreciation from Smart IndiA Hackathon team
 
 
 ## Inspiration
